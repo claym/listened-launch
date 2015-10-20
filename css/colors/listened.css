@@ -1,0 +1,248 @@
+/**
+ * ==============================================================
+ * COLOR STYLESHEET - DREW
+ * ==============================================================
+ */
+
+/**
+ * LISTENED
+ 
+ * - listened   : #00888c (0,136,140)
+ * - darken 5%  : #007B7F (0,123,127)
+ * - darken 10% : #006F73 (0,111,115)
+ * - light 		: #33BBBF (77, 213, 217)
+ */
+
+/**
+ * TURQUOISE
+ * - basic      : #73cdc8 (115,205,200)
+ * - darken 5%  : #66c0bb (102,192,187)
+ * - darken 10% : #5ab4af (90,180,175)
+ */
+
+/* BOOTSTRAP OVERRIDE */
+a {
+	color: #00888c;
+}
+a:focus, a:hover {
+	color: #006F73;
+}
+.text-primary {
+	color: #00888c;
+}
+a.text-primary:hover {
+	color: #006F73;
+}
+.bg-primary {
+	background-color: #00888c;
+}
+a.bg-primary:hover {
+	background-color: #006F73;
+}
+.btn-primary {
+	background-color: rgba(3,112,124,0.85);
+	border-color: #00888c !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+	background-color: #007B7F;
+	border-color: #00888c;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+	background-color: #00888c;
+}
+.btn-primary .badge {
+	color: #00888c;
+}
+.btn-link {
+	color: #00888c;
+}
+.btn-link:hover,
+.btn-link:focus {
+	color: #006F73;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+	background-color: #00888c;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	border-color: #00888c;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: #00888c;
+}
+.pagination > li > a,
+.pagination > li > span {
+	color: #00888c;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+	color: #006F73;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #00888c;
+	border-color: #00888c;
+}
+.label-primary {
+	background-color: rgba(115,205,200,0.85);
+}
+.label-primary[href]:hover,
+.label-primary[href]:focus {
+	background-color: #007B7F;
+}
+a.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+	color: #00888c;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+	border-color: #00888c;
+}
+.progress-bar {
+	background-color: #00888c;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+	background-color: #00888c;
+	border-color: #00888c;
+}
+.panel-primary {
+	border-color: #00888c;
+}
+.panel-primary > .panel-heading {
+	background-color: #00888c;
+	border-color: #00888c;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #00888c;
+}
+.panel-primary > .panel-heading .badge {
+	color: #00888c;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+	border-bottom-color: #00888c;
+}
+
+/* COMMON CLASSES */
+.icon-list-icon {
+	background-color: #00888c;
+}
+/* HEADER */
+.navbar-nav > li.header-action-button > a.btn-primary:hover, .navbar-nav > li.header-action-button > a.btn-primary:focus {
+	background-color: #007B7F;
+}
+/* SECTION COLOR */
+.section-accent {
+	background-color: #00888c;
+}
+/* BENEFITS */
+.section-accent .benefit {
+	background-color: #007B7F;
+}
+.benefit-icon {
+	color: #00888c;
+}
+/* HOW IT WORKS */
+.hiw-item-icon {
+	background-color: #00888c;
+}
+.section-accent .hiw-item {
+	background-color: #00888c;
+}
+.section-accent .hiw-item.even {
+	background-color: #007B7F;
+}
+.section-accent .hiw-item-icon {
+	border-color: #00888c;
+}
+.section-accent .hiw-item.even .hiw-item-icon {	
+	border-color: #007B7F;
+}
+/* NUMBERS */
+.numbers-item-counter {
+	color: #00888c;
+}
+/* PRICING TABLE */
+.section-accent .pricing-package {
+	background-color: #007B7F;
+}
+.pricing-package-header {
+	border-bottom-color: #00888c;
+}
+.section-dark .pricing-package-header {
+	background-color: #00888c;
+}
+/* TESTIMONIAL */
+.section-accent .testimonial {
+	background-color: #007B7F;
+}
+.testimonial-ratings {
+	color: #00888c;
+}
+/* PORTFOLIO */
+.portfolio-item-overlay {
+	background-color: #00888c;
+}
+/* FAQ */
+.faq-item-icon {
+	color: #00888c;
+}
+/* TEAM */
+.section-accent .team-member {
+	background-color: #00888c;
+}
+.section-accent .team-member.even {
+	background-color: #007B7F;
+}
+.section-accent .team-member-icon {
+	border-color: #00888c;
+}
+/* CONTACT + MAPS */
+.section-accent .contact-maps-box {
+	background-color: #00888c;
+	background-color: rgba(115,205,200,0.9);
+}
+
+/* JPRELOADER */
+#jpreBar {
+	background-color: #00888c;
+}
+
+.form-validation.alert-success {
+	background-color: #33BBBF;
+}
