@@ -177,6 +177,12 @@ a.thumbnail.active {
 .benefit-icon {
 	color: #00888c;
 }
+
+.benefit:hover {
+	color: #006F73;
+	font-size: 110%;
+}
+
 /* HOW IT WORKS */
 .hiw-item-icon {
 	background-color: #00888c;
