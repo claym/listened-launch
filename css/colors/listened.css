@@ -247,3 +247,8 @@ a.thumbnail.active {
 .form-validation.alert-success {
 	background-color: #33BBBF;
 }
+
+.navbar-logo {
+	padding-right: 0px;
+	max-width: 245px;
+}
